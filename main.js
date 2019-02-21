@@ -1,28 +1,28 @@
 var img = document.getElementById("showimg");
 
 function random(){
-//      var number = parseInt(1000*Math.random())%5;
-//      if (number == 0)
-//      {
-        img.src = "./img/test.png";
-//      }
-//      if (number == 1)
-//      {
-//          img.src = "./img/test2.png";
-//      }
-//      if (number == 2)
-//      {
-//          img.src = "./img/test3.png";
-//      }
-//      if (number == 3){
-//          img.src = "./img/test4.png";
-//      }
+     var number = parseInt(1000*Math.random())%5;
+     if (number == 0)
+     {
+        img.src = "./img/test1.png";
+     }
+     if (number == 1)
+     {
+         img.src = "./img/test2.png";
+     }
+     if (number == 2)
+     {
+         img.src = "./img/test3.png";
+     }
+     if (number == 3){
+         img.src = "./img/test4.png";
+     }
 //      if (number == 4){
 //          img.src = "./img/test5.png";
 //      }
-     // if (number == 5){
-     //     img.src = "./img/test5.png";
-     // }
+//      if (number == 5){
+//          img.src = "./img/test5.png";
+//      }
 
 //      if (number == 6){
 //          img.src = "./img/test7.png";
