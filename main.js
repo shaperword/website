@@ -1,7 +1,7 @@
 var img = document.getElementById("showimg");
 
 function random(){
-     var number = parseInt(1000*Math.random())%5;
+     var number = parseInt(1000*Math.random())%3;
      if (number == 0)
      {
         img.src = "./img/test1.png";
@@ -14,9 +14,9 @@ function random(){
      {
          img.src = "./img/test3.png";
      }
-     if (number == 3){
-         img.src = "./img/test4.png";
-     }
+//      if (number == 3){
+//          img.src = "./img/test4.png";
+//      }
 //      if (number == 4){
 //          img.src = "./img/test5.png";
 //      }
