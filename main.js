@@ -12,7 +12,7 @@ function random(){
      }
      if (number == 2)
      {
-         img.src = "./img/test3.png";
+         img.src = "./img/test1.png";
      }
 //      if (number == 3){
 //          img.src = "./img/test4.png";
